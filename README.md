@@ -20,6 +20,6 @@ The classic Sieve of Eratosthenes marks composite numbers in a boolean array, bu
 ### Using NASM (example for Linux x86-64):
 
 ```bash
-nasm -f elf64 sieve.asm -o sieve.o
-ld sieve.o -o sieve
+nasm -f elf64 primes.s -o primes.s
+ld primes.s -o primes
 ./sieve
